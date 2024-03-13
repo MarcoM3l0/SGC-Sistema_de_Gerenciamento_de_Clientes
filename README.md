@@ -64,15 +64,14 @@ npm run dev
 
     * Acesse a página `/cadastrado-clientes`.
     * Preencha o formulário com os dados do cliente.
-    * Clique no botão "Salvar".
+    * Clique no botão "cadastrar".
 
 * **Listagem de clientes:**
 
     * Acesse a página `/`.
     * Visualize a lista de clientes cadastrados.
-    * Clique no nome de um cliente para visualizar seus detalhes.
 
-* **Menor rota para casa:**
+* **Menor rota para cada casa de cliente:**
   
     * Clique no botão "Calcular rota".
 
