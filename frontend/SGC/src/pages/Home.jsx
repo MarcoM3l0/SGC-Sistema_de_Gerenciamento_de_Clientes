@@ -51,7 +51,8 @@ const Home = () =>{
         const filteredClients = listaCliente.filter((cliente) =>
           cliente.nome.nome.toLowerCase().includes(searchTerm) ||
           cliente.nome.email.toLowerCase().includes(searchTerm) ||
-          cliente.nome.telefone.toLowerCase().includes(searchTerm)
+          cliente.nome.telefone.toLowerCase().includes(searchTerm) ||
+          cliente.nome.coordenadas.toLowerCase().includes(searchTerm)
         )
         setListaFiltrada(filteredClients);
 
